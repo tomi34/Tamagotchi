@@ -1,4 +1,18 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="=Pmy#@F`(JmzPKJu[T=x">Player</variable><variable type="KIND_SpriteKind" id="mC}K2,(Bm[5:QITr}*n;">Projectile</variable><variable type="KIND_SpriteKind" id="4YAxsGkAtsprs)|N?~Dl">Food</variable><variable type="KIND_SpriteKind" id="?e$jbx~0B3rron,1am/E">Enemy</variable><variable id="AJ1gc|1FbN*AJT-1-{,F">mySprite</variable><variable id="=p::+Vibq.8gWJ|,eYun">mySprite2</variable></variables><block type="pxt-on-start" id="48MBrIo0Qc;^+XJ~}Ve!" x="148" y="162"><statement name="HANDLER"><block type="variables_set" id="*f3Z)SI$Ug14`5/ckkTa"><field name="VAR" id="AJ1gc|1FbN*AJT-1-{,F">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="1|`h^]l%jszPJ@s=dm]Y"><value name="img"><shadow type="screen_image_picker" id="s{-)HWyrBdzN!piOqEZp"><field name="img">img`
+. . . . . . . . c c c c . . . . 
+. . . . . . c c d d d d c . . . 
+. . . . . c c c c c c d c . . . 
+. . . . c c 4 4 4 4 d c c . c c 
+. . . c 4 d 4 4 4 4 4 1 c c 4 c 
+. . c 4 4 4 1 4 4 4 4 d 1 c 4 f 
+. c 4 4 4 4 1 4 4 4 4 4 1 4 4 f 
+f 4 4 4 4 4 1 1 c f 4 4 1 f 4 f 
+f 4 4 4 f 4 1 c 4 f 4 4 1 f 4 f 
+f 4 4 4 4 4 1 4 4 f 4 4 d f f f 
+. f 4 4 4 4 1 c c 4 4 d f f . . 
+. . f f 4 d 4 4 4 4 4 c f . . . 
+. . . . f f 4 4 4 4 c d b c . . 
+. . . . . . f f f f d d d c . . 
+. . . . . . . . . . c c c . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="$)n,ZYX)YBqdv,.xC20T"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="keyonevent" id="`63j~#{#Et(:4s-Xr%.:" x="250" y="410"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_while" id="YS5;E.PM`SZI[2!bmf.o"><value name="COND"><shadow type="logic_boolean" id="*8)P2=6*z#$2s6Ix%DVQ"><field name="BOOL">TRUE</field></shadow><block type="keyispressed" id="S``xl6,-_-%P-AsX.`0X"><field name="button">controller.A</field></block></value></block></statement></block></xml>
