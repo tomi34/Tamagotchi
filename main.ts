@@ -158,13 +158,12 @@ controller.B.onEvent(ControllerButtonEvent.Released, function () {
     tisztasag += tiszfel
 })
 let penz = 0
+let allat: Sprite = null
 let Kaja = 0
 let tisztasag = 0
 let kajafeltoltes = 0
 let tiszfel = 0
 let allatszam = 0
-let allat: Sprite = null
-allat.setFlag(SpriteFlag.StayInScreen, true)
 allatszam = 1
 tiszfel = 1
 kajafeltoltes = 1
