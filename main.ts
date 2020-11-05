@@ -34,6 +34,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 controller.A.onEvent(ControllerButtonEvent.Released, function () {
+    music.baDing.play()
     pause(3600000)
     Kaja += kajafeltoltes
 })
@@ -152,6 +153,7 @@ function halal () {
     halal()
 }
 controller.B.onEvent(ControllerButtonEvent.Released, function () {
+    music.baDing.play()
     pause(3600000)
     tisztasag += tiszfel
 })
