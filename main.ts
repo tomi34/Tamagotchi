@@ -387,7 +387,7 @@ allat = sprites.create(img`
     `, SpriteKind.Player)
 forever(function () {
     pause(100)
-    allat.setVelocity(randint(34, -34), randint(34, -34))
+    allat.setVelocity(randint(1, -1), randint(1, -1))
 })
 forever(function () {
     mySprite3.say(penz)
